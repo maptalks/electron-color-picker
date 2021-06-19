@@ -1,4 +1,6 @@
-# electron-color-picker
+# @maptalks/electron-color-picker
+
+Fork of [https://github.com/mockingbot/electron-color-picker](https://github.com/mockingbot/electron-color-picker) to support DPI aware under Windows.
 
 [![i:npm]][l:npm]
 [![i:size]][l:size]
@@ -61,7 +63,7 @@ check: [example/concept.md](example/concept.md)
 
 First add this package to your project: 
 ```bash
-npm install electron-color-picker
+npm install @maptalks/electron-color-picker
 ```
 
 Sample function `saveColorToClipboard()`:
@@ -120,7 +122,7 @@ const { // code with simple mutex wrapper
   darwinGetColorHexRGB,
   darwinGetScreenPermissionGranted,
   darwinRequestScreenPermissionPopup
-} = require('electron-color-picker')
+} = require('@maptalks/electron-color-picker')
 
 const { // platform specific function, with less check
   runColorPicker,
@@ -128,5 +130,5 @@ const { // platform specific function, with less check
   darwinRunColorPicker,
   darwinGetScreenPermissionGranted,
   darwinRequestScreenPermissionPopup
-} = require('electron-color-picker/library/darwin/index.js')
+} = require('@maptalks/electron-color-picker/library/darwin/index.js')
 ```
