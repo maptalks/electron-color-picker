@@ -39,5 +39,5 @@ runMain(async (logger) => {
   execShell('npm run lint')
   await verifyGitStatusClean({ fromRoot, logger })
   const pathPackagePack = await packOutput({ fromRoot, fromOutput, logger })
-  await publishOutput({ flagList: process.argv, packageJSON, pathPackagePack, extraArgs: [ '--userconfig', '~/mockingbot.npmrc' ], logger })
+  await publishOutput({ flagList: process.argv, packageJSON, pathPackagePack, logger })
 })

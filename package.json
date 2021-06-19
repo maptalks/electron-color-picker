@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@maptalks/electron-color-picker",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Pick color from Desktop, in Electron.",
   "author": "mockingbot",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "Electron",
     "ColorPicker"
   ],
-  "repository": "github:mockingbot/electron-color-picker",
+  "repository": "github:maptalks/electron-color-picker",
   "main": "library/index.js",
   "scripts": {
     "// script ======================": "",
